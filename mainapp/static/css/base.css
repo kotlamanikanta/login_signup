@@ -1,0 +1,170 @@
+@import url(//fonts.googleapis.com/css?family=Muli);
+
+/* Basic css */
+body{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    line-height: 1.8;
+}
+a{
+    color: black;
+    text-decoration:blueviolet;
+}
+a:hover{
+    color: blue;
+}
+h1,h2,h3,h4,h5,h6{ font-family:'Muli',sans-serif; font-weight:normal;}
+
+h1{
+    
+    text-align: center;
+}
+h2{
+    margin:30px 0 20px;
+}
+ol{
+    line-height:1.5;
+}
+
+ /*css for header */
+
+#header{
+    padding: 10px 100px;
+    font-size:20px;
+    background-color:blue;
+    color: antiquewhite;
+    border-bottom: 10px solid blue;
+    overflow:auto;
+}
+#header .logo{
+    font-family: 'Muli',sans-serif;
+    float:left;
+    color:bisque;
+    font-size: 28px;
+    margin-left:40%;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+#header ul.menu{
+    list-style:none;
+    float: left;
+    margin-left:15%;
+    margin-top:2%;
+    
+}
+#header ul.menu li{
+    float:left;
+    padding:4px 10px;
+
+}
+#header ul.menu li.selected a, #header ul.menu li.selected a:hover{
+    color:blue;
+    font-weight:bold;
+}
+#header a{
+    color: antiquewhite;
+}
+#header a:hover{
+    color: bisque;
+}
+
+#header .user{
+    float:right;
+    padding-top:4px;
+}
+
+/* Css for content */
+#content{
+    padding:30px 100px;
+}
+
+/*forms */
+form p{
+    text-align: left;
+}
+ 
+label{
+    text-align: left;
+    clear:both;
+    color: black;
+
+}
+input,textarea{
+    clear: both;
+    margin:0 15px 10px;
+    background: cornsilk;
+    border:0;
+    padding:6px 10px;
+    font-size:14px;
+}
+
+input[type=submit],a.button{
+    font-weight:bold;
+    background:blue;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size:14px;
+    text-transform:uppercase;
+
+}
+.errolist{
+    color: brown;
+    float:left;
+    clear: both;
+    padding-left:10px;
+}
+.helptext{
+    margin:0 0 20px 0;
+    color:azure;
+    clear: both;
+    float: left;
+    font-size:13px;
+}
+
+/* Messages */
+ul.messages{
+    margin: 10px 100px;
+    padding: 0;
+    list-style-type:none;
+}
+ul.messages li.success,
+ul.messages li.warning,
+ul.messages li.error,
+ul.messages li.info{
+    margin:0;
+    padding:14px 20px;
+    list-style:none;
+    color:antiquewhite;
+}
+
+ul.messages li.success{background: greenyellow;}
+ul.messages li.sucess a{color:aqua;}
+
+ul.messages li.error{background: rgb(130, 35, 43);color:palevioletred;}
+ul.messagesli.error a{ color:blue;}
+
+ul.messages li.info{ background:whitesmoke;}
+ul.messages li.info a{color:blue;}
+
+ul.messages li.warning{ background:yellow;}
+ul.messages li.warning a{ color:antiquewhite;}
+
+ul.messages li a.close{
+    margin: 0;
+    float: right;
+    opacity:1;
+    border:0;
+    box-shadow:none;
+    text-shadow:none;
+}
+
+.login-form{
+    float: left;
+}
+
+
